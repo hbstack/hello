@@ -1,0 +1,34 @@
+[module]
+[[module.imports]]
+path = 'github.com/hbstack/hb'
+
+[params]
+
+[params.hugopress]
+
+[params.hugopress.modules]
+
+[params.hugopress.modules.hb-vendor-hello]
+
+[params.hugopress.modules.hb-vendor-hello.attributes]
+
+[params.hugopress.modules.hb-vendor-hello.attributes.body]
+cacheable = true
+
+[params.hugopress.modules.hb-vendor-hello.attributes.document]
+cacheable = true
+
+[params.hugopress.modules.hb-vendor-hello.hooks.head-begin]
+cacheable = true
+
+[params.hugopress.modules.hb-vendor-hello.hooks.head-end]
+cacheable = true
+
+[params.hugopress.modules.hb-vendor-hello.hooks.body-begin]
+cacheable = true
+
+[params.hb.vendor_hello]
+bg = "blue"
+color = "white"
+message = "Hello world!"
+
